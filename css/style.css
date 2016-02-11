@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+#content {
+	background-color: #2e2e2e;
+}
+
+#lsContent {
+	background-color: #2e2e2e;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Audiowide', cursive;
+}
+
+#header {
+	background-color: #000;
+	height: 49px;
+}
+
+#back:active {
+	color:#3e3e3e;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: 'Audiowide', cursive;
+}
+
+#mainPost {
+	background-color: #2e2e2e;
+}
+
+h2 {
+	font-family: 'Audiowide', cursive;
+}
+
+h2, h5, p {
+	color: #fff;
+}
+
+p {
+	font-family: verdana;
+}

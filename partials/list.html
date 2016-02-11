@@ -1,0 +1,15 @@
+<ion-header-bar class="bar-dark" id="header">
+  <h1 class="title">STAR WARS FILMS</h1>
+</ion-header-bar>
+
+<ion-content id="content">
+	<ion-refresher pulling-text="Pull To Refresh" refreshing-text="loading..." on-refresh="loadlist()">
+	</ion-refresher>
+
+
+	<ion-item ng-repeat="result in results" href="#/details/{{$index}}" id="lsContent" >
+		<ul data-ng-bind-html="result.title"></ul>
+	</ion-item>
+
+
+ </ion-content>
